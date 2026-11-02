@@ -34,6 +34,5 @@ for nombre in (100, 1_000, 10_000):
     )
 
 print(
-    "\nConclusion : avec davantage de points, l'estimation tend en general "
-    "a se rapprocher de pi, mais le hasard peut faire varier l'erreur."
+    "Conclusion : avec davantage de points, l'estimation tend en general a se rapprocher de pi, mais le hasard peut faire varier l'erreur."
 )
