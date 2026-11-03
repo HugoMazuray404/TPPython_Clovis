@@ -1,12 +1,8 @@
 """
 Estimer pi avec de la geometrie et du hasard.
-
 On tire des points au hasard dans un carre de cote 2, centre en (0, 0).
 La proportion de points dans le cercle de rayon 1 est environ pi / 4.
-On peut donc estimer pi en multipliant cette proportion par 4.
-
-Lancer avec : python CMartin_TP.py
-"""
+On peut donc estimer pi en multipliant cette proportion par 4.        """
 
 import random
 
@@ -33,6 +29,4 @@ for nombre in (100, 1_000, 10_000):
         f"(erreur : {erreur:.5f})"
     )
 
-print(
-    "Conclusion : avec davantage de points, l'estimation tend en general a se rapprocher de pi, mais le hasard peut faire varier l'erreur."
-)
+    """avec plus de points, l'estimation penche en general a se rapprocher de pi, mais le hasard peut faire varier l'erreur."""
